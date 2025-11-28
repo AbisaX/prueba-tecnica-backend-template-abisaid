@@ -1,0 +1,71 @@
+# Respuestas - Prueba Técnica Backend Developer
+
+## 1. Escenario de Concurrencia (Black Friday) 🏃‍♂️
+
+### Problema
+Es Black Friday y el sistema recibe 50 pedidos por segundo del iPhone 15 que solo tiene 10 unidades en stock. El resultado es un inventario negativo (-5 unidades).
+
+### Pregunta
+¿Qué mecanismo de base de datos o de Spring Boot utilizarías para asegurar que nunca se venda más stock del que existe, asumiendo múltiples instancias de la API corriendo en paralelo?
+
+### Tu Respuesta
+```
+[Escribe aquí tu respuesta]
+
+Posibles enfoques a considerar:
+- Transacciones y niveles de aislamiento
+- Bloqueos (locks) en base de datos
+- Bloqueos optimistas vs pesimistas
+- Uso de @Version para Optimistic Locking
+- SELECT FOR UPDATE
+- Implementación de un sistema de colas
+- Otros mecanismos...
+
+Explica cuál elegirías y por qué.
+```
+
+---
+
+## 2. Pregunta Trampa de Arquitectura 🎯
+
+### Propuesta del Junior Developer
+Configurar TODAS las relaciones JPA (`@OneToMany`, `@ManyToOne`) con `FetchType.EAGER` para:
+- Traer toda la data en una sola consulta
+- Evitar `LazyInitializationException`
+- Mejorar el rendimiento
+
+### Pregunta
+¿Aceptarías este Pull Request? ¿Por qué sí o por qué no? ¿Qué impacto tendría con millones de registros?
+
+### Tu Respuesta
+```
+[Escribe aquí tu respuesta]
+
+Considera estos puntos:
+- Problema N+1 vs Carga excesiva de memoria
+- Impacto en el rendimiento con grandes volúmenes de datos
+- Alternativas mejores (DTO projection, fetch joins específicos, etc.)
+- Cuándo usar EAGER vs LAZY
+- Mejores prácticas para manejar LazyInitializationException
+
+¿Aceptarías la propuesta? ¿Qué alternativas sugerirías?
+```
+
+---
+
+## 3. Reflexiones Adicionales (Opcional) 💭
+
+### Sobre el Refactoring Realizado
+```
+[Opcional: Explica brevemente las decisiones más importantes que tomaste durante la refactorización]
+```
+
+### Patrones de Diseño Aplicados
+```
+[Opcional: Menciona qué patrones de diseño utilizaste y por qué]
+```
+
+### Posibles Mejoras Futuras
+```
+[Opcional: ¿Qué otras mejoras implementarías si tuvieras más tiempo?]
+```

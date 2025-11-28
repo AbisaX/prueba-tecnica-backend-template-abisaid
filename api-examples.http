@@ -1,0 +1,95 @@
+### Prueba Técnica - Ejemplos de API
+
+# Verificar que la aplicación esté corriendo
+GET http://localhost:8080/api/products
+
+###
+
+# Ejemplo 1: Pedido SIN descuento (3 tipos o menos)
+POST http://localhost:8080/api/orders
+Content-Type: application/json
+
+{
+  "customerName": "Ana García",
+  "customerEmail": "ana@email.com",
+  "items": [
+    {"productId": 1, "quantity": 5},
+    {"productId": 2, "quantity": 2},
+    {"productId": 3, "quantity": 1}
+  ]
+}
+
+###
+
+# Ejemplo 2: Pedido CON descuento (más de 3 tipos diferentes)
+POST http://localhost:8080/api/orders
+Content-Type: application/json
+
+{
+  "customerName": "Carlos López",
+  "customerEmail": "carlos@email.com",
+  "items": [
+    {"productId": 1, "quantity": 1},
+    {"productId": 2, "quantity": 1},
+    {"productId": 3, "quantity": 1},
+    {"productId": 4, "quantity": 1},
+    {"productId": 5, "quantity": 1}
+  ]
+}
+
+###
+
+# Ejemplo 3: Muchas unidades del mismo producto (SIN descuento)
+POST http://localhost:8080/api/orders
+Content-Type: application/json
+
+{
+  "customerName": "María Rodríguez",
+  "customerEmail": "maria@email.com",
+  "items": [
+    {"productId": 1, "quantity": 20}
+  ]
+}
+
+###
+
+# Obtener un pedido específico
+GET http://localhost:8080/api/orders/1
+
+###
+
+# Obtener todos los pedidos
+GET http://localhost:8080/api/orders
+
+###
+
+# Obtener un producto específico
+GET http://localhost:8080/api/products/1
+
+###
+
+# Caso Edge: Producto que no existe (debería dar error)
+POST http://localhost:8080/api/orders
+Content-Type: application/json
+
+{
+  "customerName": "Test Error",
+  "customerEmail": "test@email.com",
+  "items": [
+    {"productId": 999, "quantity": 1}
+  ]
+}
+
+###
+
+# Caso Edge: Stock insuficiente (debería dar error)
+POST http://localhost:8080/api/orders
+Content-Type: application/json
+
+{
+  "customerName": "Test Stock",
+  "customerEmail": "test@email.com",
+  "items": [
+    {"productId": 5, "quantity": 999}
+  ]
+}
