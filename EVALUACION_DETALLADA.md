@@ -16,6 +16,7 @@ Se evaluaron **10 Pull Requests** abiertos (PR #3 a PR #12) de diferentes candid
 ---
 
 ## PR #12 - jaospinac500-cmd
+🔗 **Link**: [Ver PR #12](https://github.com/danny-palma/prueba-tecnica-backend-template/pull/12)  
 **Título**: Prueba Tecnica Jaospina 1.0  
 **Archivos modificados**: 17
 
@@ -69,6 +70,7 @@ Se evaluaron **10 Pull Requests** abiertos (PR #3 a PR #12) de diferentes candid
 ---
 
 ## PR #11 - MaicolRincon931
+🔗 **Link**: [Ver PR #11](https://github.com/danny-palma/prueba-tecnica-backend-template/pull/11)  
 **Título**: Implementation by Maicol Rincon  
 **Archivos modificados**: 22
 
@@ -122,6 +124,7 @@ Se evaluaron **10 Pull Requests** abiertos (PR #3 a PR #12) de diferentes candid
 ---
 
 ## PR #10 - pjsilva613
+🔗 **Link**: [Ver PR #10](https://github.com/danny-palma/prueba-tecnica-backend-template/pull/10)  
 **Título**: Prueba técnica backend  
 **Archivos modificados**: 11
 
@@ -173,6 +176,7 @@ Se evaluaron **10 Pull Requests** abiertos (PR #3 a PR #12) de diferentes candid
 ---
 
 ## PR #9 - cduarte0808
+🔗 **Link**: [Ver PR #9](https://github.com/danny-palma/prueba-tecnica-backend-template/pull/9)  
 **Título**: Prueba técnica  
 **Archivos modificados**: 7
 
@@ -226,6 +230,7 @@ Se evaluaron **10 Pull Requests** abiertos (PR #3 a PR #12) de diferentes candid
 ---
 
 ## PR #8 - RaulLozanoPonce
+🔗 **Link**: [Ver PR #8](https://github.com/danny-palma/prueba-tecnica-backend-template/pull/8)  
 **Título**: Prueba técnica Raúl Lozano  
 **Archivos modificados**: 11
 
@@ -279,6 +284,7 @@ Se evaluaron **10 Pull Requests** abiertos (PR #3 a PR #12) de diferentes candid
 ---
 
 ## PR #7 - Duvier-Reinosa
+🔗 **Link**: [Ver PR #7](https://github.com/danny-palma/prueba-tecnica-backend-template/pull/7)  
 **Título**: Submit/duvier reinosa  
 **Archivos modificados**: 13
 
@@ -335,6 +341,7 @@ Se evaluaron **10 Pull Requests** abiertos (PR #3 a PR #12) de diferentes candid
 ---
 
 ## PR #6 - djtitoxx
+🔗 **Link**: [Ver PR #6](https://github.com/danny-palma/prueba-tecnica-backend-template/pull/6)  
 **Título**: (no visible en resumen)  
 **Archivos modificados**: 13
 
@@ -390,6 +397,7 @@ Se evaluaron **10 Pull Requests** abiertos (PR #3 a PR #12) de diferentes candid
 ---
 
 ## PR #5 - ReinaldoBeltran
+🔗 **Link**: [Ver PR #5](https://github.com/danny-palma/prueba-tecnica-backend-template/pull/5)  
 **Título**: (no visible en resumen)  
 **Archivos modificados**: 4
 
@@ -444,6 +452,7 @@ Se evaluaron **10 Pull Requests** abiertos (PR #3 a PR #12) de diferentes candid
 ---
 
 ## PR #4 - ReinaldoBeltran
+🔗 **Link**: [Ver PR #4](https://github.com/danny-palma/prueba-tecnica-backend-template/pull/4)  
 **Título**: (no visible en resumen)  
 **Archivos modificados**: 1
 
@@ -498,6 +507,7 @@ Se evaluaron **10 Pull Requests** abiertos (PR #3 a PR #12) de diferentes candid
 ---
 
 ## PR #3 - juandaducuara
+🔗 **Link**: [Ver PR #3](https://github.com/danny-palma/prueba-tecnica-backend-template/pull/3)  
 **Título**: (no visible en resumen)  
 **Archivos modificados**: 2
 
