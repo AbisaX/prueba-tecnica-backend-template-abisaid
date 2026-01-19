@@ -71,8 +71,8 @@ Se evaluaron **10 Pull Requests** abiertos (PR #3 a PR #12) de diferentes candid
 
 ## PR #11 - MaicolRincon931
 🔗 **Link**: [Ver PR #11](https://github.com/danny-palma/prueba-tecnica-backend-template/pull/11)  
-**Título**: Implementation by Maicol Rincon  
-**Archivos modificados**: 22
+**Título**: Solución prueba técnica backend - Maicol Antonio Rincón  
+**Archivos modificados**: 19
 
 ### 📊 Evaluación
 
@@ -177,8 +177,8 @@ Se evaluaron **10 Pull Requests** abiertos (PR #3 a PR #12) de diferentes candid
 
 ## PR #9 - cduarte0808
 🔗 **Link**: [Ver PR #9](https://github.com/danny-palma/prueba-tecnica-backend-template/pull/9)  
-**Título**: Prueba técnica  
-**Archivos modificados**: 7
+**Título**: Refactor OrderService: aplicar Pessimistic Locking y separar responsabilidades  
+**Archivos modificados**: 9
 
 ### 📊 Evaluación
 
@@ -229,9 +229,9 @@ Se evaluaron **10 Pull Requests** abiertos (PR #3 a PR #12) de diferentes candid
 
 ---
 
-## PR #8 - RaulLozanoPonce
+## PR #8 - jodagore92
 🔗 **Link**: [Ver PR #8](https://github.com/danny-palma/prueba-tecnica-backend-template/pull/8)  
-**Título**: Prueba técnica Raúl Lozano  
+**Título**: Respuestas de JOSE DAVID GOMEZ - jodagore92@gmail.com  
 **Archivos modificados**: 11
 
 ### 📊 Evaluación
@@ -283,10 +283,10 @@ Se evaluaron **10 Pull Requests** abiertos (PR #3 a PR #12) de diferentes candid
 
 ---
 
-## PR #7 - Duvier-Reinosa
+## PR #7 - fandres62
 🔗 **Link**: [Ver PR #7](https://github.com/danny-palma/prueba-tecnica-backend-template/pull/7)  
-**Título**: Submit/duvier reinosa  
-**Archivos modificados**: 13
+**Título**: Refactorización, mejora de creación de pedidos, manejo de errores  
+**Archivos modificados**: 24
 
 ### 📊 Evaluación
 
@@ -342,7 +342,7 @@ Se evaluaron **10 Pull Requests** abiertos (PR #3 a PR #12) de diferentes candid
 
 ## PR #6 - djtitoxx
 🔗 **Link**: [Ver PR #6](https://github.com/danny-palma/prueba-tecnica-backend-template/pull/6)  
-**Título**: (no visible en resumen)  
+**Título**: Refactor: Optimización de OrderService, manejo de concurrencia y estrategia de descuentos  
 **Archivos modificados**: 13
 
 ### 📊 Evaluación
@@ -563,11 +563,11 @@ Se evaluaron **10 Pull Requests** abiertos (PR #3 a PR #12) de diferentes candid
 
 | Posición | PR | Candidato | Puntuación | Observaciones |
 |----------|-----|-----------|------------|---------------|
-| 🥇 1° | #7 | Duvier-Reinosa | **88/100** | Interface-based architecture, SonarQube, excepciones centralizadas |
+| 🥇 1° | #7 | fandres62 | **88/100** | Interface-based architecture, SonarQube, excepciones centralizadas |
 | 🥈 2° | #11 | MaicolRincon931 | **87/100** | Strategy pattern, tests exhaustivos, arquitectura modular |
 | 🥉 3° | #9 | cduarte0808 | **83/100** | **Implementó Pessimistic Locking**, vincula teoría con práctica |
 | 🥉 3° | #6 | djtitoxx | **83/100** | Tests extensos, manejo JSON circular, pessimistic locking |
-| 5° | #8 | RaulLozanoPonce | **76/100** | Façade pattern, Factory, pero tiene log-trace.txt |
+| 5° | #8 | jodagore92 | **76/100** | Façade pattern, Factory, pero tiene log-trace.txt |
 | 6° | #12 | jaospinac500-cmd | **74/100** | Refactorización básica, .DS_Store files |
 | 7° | #3 | juandaducuara | **71/100** | Respuestas coloquiales únicas, solo 2 archivos |
 | 8° | #10 | pjsilva613 | **69/100** | Constructor injection, respuestas muy breves |
@@ -604,7 +604,7 @@ Se evaluaron **10 Pull Requests** abiertos (PR #3 a PR #12) de diferentes candid
 
 ### 🎯 Respuestas más originales:
 1. **PR #3 (juandaducuara)**: Tono coloquial único, respuestas con personalidad
-2. **PR #7 (Duvier-Reinosa)**: Único que menciona SonarQube, Prometheus, Grafana
+2. **PR #7 (fandres62)**: Único que menciona SonarQube, Prometheus, Grafana
 3. **PR #9 (cduarte0808)**: Único que **implementó** Pessimistic Locking en código
 
 ---
@@ -613,7 +613,7 @@ Se evaluaron **10 Pull Requests** abiertos (PR #3 a PR #12) de diferentes candid
 
 ### 🏆 TOP 3 - Candidatos Recomendados
 
-#### 1. **Duvier-Reinosa (PR #7) - 88/100**
+#### 1. **fandres62 (PR #7) - 88/100**
 **Fortalezas**:
 - Arquitectura más completa (interfaces, servicios separados)
 - Intentó integrar herramientas de calidad (SonarQube)
@@ -625,6 +625,11 @@ Se evaluaron **10 Pull Requests** abiertos (PR #3 a PR #12) de diferentes candid
 - Agregar más JavaDoc
 
 **Recomendación**: ✅ **CONTRATAR** - Candidato senior, piensa en arquitectura completa
+
+**Observaciones destacadas**:
+1. **fandres62 (PR #7)**: Excelente arquitectura, único que menciona SonarQube, Prometheus, Grafana
+2. **PR #7 (fandres62)**: Único que menciona SonarQube, Prometheus, Grafana
+3. **PR #9 (cduarte0808)**: Único que implementó Pessimistic Locking
 
 ---
 
@@ -668,7 +673,7 @@ Se evaluaron **10 Pull Requests** abiertos (PR #3 a PR #12) de diferentes candid
 
 **Recomendación**: ✅ **SEGUNDA RONDA** - Buen candidato, tests exhaustivos
 
-#### 5. **RaulLozanoPonce (PR #8) - 76/100**
+#### 5. **jodagore92 (PR #8) - 76/100**
 **Fortalezas**:
 - Façade y Factory patterns
 - Respuestas extensas
@@ -732,15 +737,15 @@ Se evaluaron **10 Pull Requests** abiertos (PR #3 a PR #12) de diferentes candid
 5. **Debilidad común**: Solo 3 de 10 implementaron solución de concurrencia (Black Friday)
 
 ### TOP 3 Definitivo:
-1. 🥇 **Duvier-Reinosa** (88) - Arquitectura completa
+1. 🥇 **fandres62** (88) - Arquitectura completa
 2. 🥈 **MaicolRincon931** (87) - Strategy pattern + tests
 3. 🥉 **cduarte0808** (83) - Implementó concurrencia
 
 ### Recomendación Final:
 **Contratar a los TOP 3**, todos tienen nivel senior y diferentes fortalezas que se complementan:
-- **Duvier**: Arquitectura y herramientas
-- **Maicol**: Patrones y testing
-- **cduarte**: Concurrencia y rendimiento
+- **fandres62**: Arquitectura y herramientas
+- **MaicolRincon931**: Patrones y testing
+- **cduarte0808**: Concurrencia y rendimiento
 
 ---
 
